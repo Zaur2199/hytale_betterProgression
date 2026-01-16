@@ -15,14 +15,14 @@ public class BetterProgression {
      */
     public BetterProgression() {
         instance = this;
-        System.out.println("[TemplatePlugin] Plugin loaded!");
+        System.out.println("Better Progression Plugin loaded!");
     }
     
     /**
      * Called when plugin is enabled.
      */
     public void onEnable() {
-        System.out.println("[TemplatePlugin] Plugin enabled!");
+        System.out.println("Better Progression Plugin enabled!");
         
         // TODO: Initialize your plugin here
         // - Load configuration
