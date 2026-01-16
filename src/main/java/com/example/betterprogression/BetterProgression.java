@@ -1,21 +1,19 @@
-package com.example.templateplugin;
+package com.example.betterprogression;
 
 /**
  * Main plugin class.
  * 
- * TODO: Implement your plugin logic here.
- * 
- * @author YourName
- * @version 1.0.0
+ * @author Zaur
+ * @version 0.1.0
  */
-public class TemplatePlugin {
+public class BetterProgression {
 
-    private static TemplatePlugin instance;
+    private static BetterProgression instance;
     
     /**
      * Constructor - Called when plugin is loaded.
      */
-    public TemplatePlugin() {
+    public BetterProgression() {
         instance = this;
         System.out.println("[TemplatePlugin] Plugin loaded!");
     }
@@ -48,7 +46,7 @@ public class TemplatePlugin {
     /**
      * Get plugin instance.
      */
-    public static TemplatePlugin getInstance() {
+    public static BetterProgression getInstance() {
         return instance;
     }
 }

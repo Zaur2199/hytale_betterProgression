@@ -1,5 +1,5 @@
 {
-  "Group": "BetterProgression",
+  "Group": "EpicModders26",
   "Name": "BetterProgression",
   "Version": "0.1.0",
   "Description": "A Hytale plugin that introduces better progression",
@@ -16,7 +16,7 @@
     }
   ],
   "Website": "https://github.com/Zaur2199/hytale_betterProgression",
-  "Main": "com.example.templateplugin.TemplatePlugin",
+  "Main": "com.example.betterprogression.BetterProgression",
   "ServerVersion": "*",
   "Dependencies": {},
   "OptionalDependencies": {},
